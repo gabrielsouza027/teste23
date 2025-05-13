@@ -235,7 +235,7 @@ def navigation_bar(selected_page):
         unsafe_allow_html=True,
     )
     
-    st.sidebar.image("Arquivos\WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200 )
+    st.sidebar.image("WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200 )
     st.sidebar .title("PAINEL")  # Título vazio para não ocupar espaço extra
 
 
@@ -272,7 +272,7 @@ def navigation_bar(selected_page):
             
 # Função para exibir o formulário de login
 def login_page():
-    st.image("Arquivos\WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200)
+    st.image("WhatsApp_Image_2024-11-28_at_10.47.28-removebg-preview.png", width=200)
 
     st.title("Login")
     
