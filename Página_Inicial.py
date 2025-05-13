@@ -10,8 +10,8 @@ from cachetools import TTLCache
 cache = TTLCache(maxsize=1, ttl=300)
 
 # Configuração do cliente Supabase (usar variáveis de ambiente)
-SUPABASE_URL = st.secrets["SUPABASE"]["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE"]["SUPABASE_KEY"]
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 # Validar URL e chave
 if not SUPABASE_URL or not SUPABASE_KEY:
     st.error("Erro: SUPABASE_URL ou SUPABASE_KEY não estão definidos nas variáveis de ambiente.")
